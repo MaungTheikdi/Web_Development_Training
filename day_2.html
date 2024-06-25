@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="keywords" content="Mg Mg, Training">
+    <meta name="description" content="Online Training">
+    <meta name="author" content="Mg Mg">
+
+    <!-- https://favicon.io/ -->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/site.webmanifest">
+
+    
+    <!-- Fontawesome.com -->
+    <!-- cdn -> https://www.jsdelivr.com/ -->
+    <script src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/js/all.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/fontawesome.min.css">
+    
+    <!--<link rel="stylesheet" href="style.css">-->
+
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <style>
+        .a {
+            background-color: rgb(206, 226, 24);
+            font-size: 30px;
+            font-weight: bold;
+            text-align: center;
+            margin: 10px;
+            padding: 10px;
+            border: 3px solid #df062a;
+            border-radius: 10px;
+            box-shadow: 10px 10px 10px #020524;
+            color: #071bf8;
+            text-decoration: underline;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            transition: 0.5s;
+        }
+
+        #b{
+            color: #df062a;
+            background-image: url('download.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .img {
+            width: 100px;
+            height: 100px;
+
+            border-radius: 50%;
+            border: 3px solid #df062a;
+            box-shadow: 10px 10px 10px #020524;
+            margin: 10px;
+            transition: 0.5s;
+        }
+        .c {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    
+     <div>
+        <!-- Header Section Start -->
+        <section>
+            <div>
+                <h1 class="a">Header Section</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, asperiores, autem, consequatur debitis doloribus ducimus eaque earum eligendi enim eos error est expedita fuga fugiat illo impedit in inventore ipsam iure labore laudantium magnam magni maxime minima molestiae mollitia nam natus nemo nesciunt nisi nostrum officia perferendis perspici
+            </div>
+        </section>
+        <!-- Header Section End -->
+
+        <!-- Main content -->
+        <section>
+            <div id="b">
+                <h1 class="a">Header Section</h1>
+                <p>
+                    <i class="fa-solid fa-video" style="color: blue;"></i>
+                    <i class="fa-brands fa-youtube" style="color: red;"></i>
+
+                    Lorem ipsum dolor sit amet, 
+                    consectetur adipisicing elit. Aperiam, asperiores, autem, consequatur debitis doloribus ducimus eaque earum eligendi enim eos error est expedita fuga fugiat illo impedit in inventore ipsam iure labore laudantium magnam magni maxime minima molestiae mollitia nam natus nemo nesciunt nisi nostrum officia perferendis perspici
+                </p>
+
+                <p>
+                    <i class='bx bxs-hot'></i>
+                    <i class='bx bxl-facebook-square'></i>
+                </p>
+
+                <p>
+                    <i class='bx bxs-hot'></i>
+                    <i class='bx bxl-facebook-square'></i>
+                </p>
+
+                <div class="c">
+                    <img src="download.jpg" alt="" class="img">
+                </div>
+                
+            </div>
+        </section>
+
+        <div>
+            <span>This is span text</span>
+            <span>This is span text</span>
+        </div>
+
+        <div>
+            <!-- Form -> get and post -->
+             <form action="create.php" method="post">
+                <!-- input tag -->
+                 <input type="text" name="user_name" placeholder="Enter your name">
+                 <input type="number" name="age" placeholder="Enter your age">
+                 <input type="email" name="email">
+                 <input type="password" name="password">
+                 <input type="date" name="date" id="">
+                 <input type="submit" name="submit" value="Save">
+             </form>
+        </div>
+
+     </div>
+    
+</body>
+</html>
