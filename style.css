@@ -6,6 +6,44 @@ h2 {
     background-color: yellow;
     text-align: center;
 }
+/* for id */
+#main {
+    color: rgb(3, 26, 26);
+}
+/* for class */
+.page {
+    margin: auto;
+    background-color: rgb(210, 210, 243);
+    padding: 15px;
+}
+/* for multiple classes */
+.fa-facebook, .fa-twitter {
+    color: blue;
+    font-size: 20px;
+}
+/* for specific and level classes */
+.main-content .second-level h2 {
+    color: rgb(156, 241, 19);
+    font-size: 20px;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    color: red;
+    background-color: burlywood;
+}
+/*
 p {
+    
+    margin, padding : top right bottom left
+
+    undefine values for css properties -> 
+    
+    margin: 10px 0 5px 10px;
+    padding-top: 10px;
+    
     color: red;
 }
+*/
