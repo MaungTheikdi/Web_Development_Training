@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+
+            /*
+            display: flex;
+
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            */
+
+            
+        }
+        /* Styling for navigation bar */
+        
+
+        nav ul {
+            display: flex;
+            justify-content: start;
+
+            list-style-type: none;
+
+            margin: 0;
+            padding: 0;
+
+            background-color: #333;
+        }
+        nav a {
+            display: block;
+            color: rgb(24, 224, 51);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: indigo;
+            color: deepskyblue;
+        }
+        .color-red { 
+            color: red;
+        }
+        .li-iten-no {
+            list-style-type: none;
+        }
+        .text-center {
+            text-align: center;
+        }
+        .my-div {
+            padding: 20px;
+            border: 1px solid black;
+            margin: 20px;
+            width: 60%;
+            height: auto;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <!-- nav tag Use for navigation -->
+        <nav>
+            <!-- Unorder list -->
+            <ul>
+                <li><a href="day_3.html">Day 3</a></li>
+                <li><a href="#">Day 2</a></li>
+                <li><a href="#">Index</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <main>
+        <div class="my-div text-center">
+            <h1>Welcome to <span class="my-span color-red">My Website</span></h1>
+            <p>This is a sample website created using HTML and CSS.</p>
+            <!-- 
+            Order List
+            <ol>
+                <li>Item 1</li>
+                <li class="color-red li-iten-no">Item 2</li>
+                <li>Item 3</li>
+            </ol>
+            -->
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2021 My Website. All rights reserved. Developed By : <a href="#" target="_blank" rel="noopener noreferrer">Kyaw Kyaw</a></p>
+    </footer>
+</body>
+</html>
